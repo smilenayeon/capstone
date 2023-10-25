@@ -1,10 +1,90 @@
 .navBar{
     display:flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    font-weight: bold;
+
 }
 
 .navLogo{
      height:5rem;;
 }
 
+.links{
+    display:flex;
+    gap:1.5rem;
+    list-style-type: none;
+}
+
+.headerContainer{
+    background-color: #495E57;
+    min-width:100vw;
+    display:flex;
+    gap:3rem;
+}
+
+.headerText{
+    margin-left:9%;
+    padding-top:1%;
+    padding-bottom:2%;
+    width:fit-content;
+}
+
+.headerText h2{
+    color:#f4cf147e;
+    font-size: 64pt;
+    margin:0;
+}
+
+.headerText h3{
+    font-size: 20pt;
+    margin:0;
+}
+.headerText h3, p{
+    color:#EDEFEE;
+}
+
+.headerText  p{
+    font-weight:bold;
+}
+button{
+    background-color:#f4cf14;
+    font-weight:bold;
+    border-radius:10px;
+    border:none;
+    padding: 0.5rem 3rem;
+    
+
+}
+
+.headerContainer img{
+    border-radius:10px;
+    position:relative;
+    top:3rem;
+ 
+    
+}
+
+
+.Main h1{
+  margin:10%;
+}
+
+.MainFirstLine{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    margin:0 25% 0 9%;
+}
+.MainFirstLine h1{ 
+    margin-left:0;
+}
+
+.MainFirstLine button{ 
+    height:3rem;
+}
+
+.foodContainer{
+    display:flex;
+    margin:0 9%;
+}
