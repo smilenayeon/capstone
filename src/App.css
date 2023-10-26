@@ -98,6 +98,13 @@ button{
     gap:2rem;
 }
 
+@media screen and (max-width: 700px) {
+    .foodContainer {
+      flex-direction: column;
+      gap: 2rem;
+    }
+}
+
 .CardContainer{
     background-color:#EDEFEE;
     border-radius:10px;
