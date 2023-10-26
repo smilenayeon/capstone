@@ -84,7 +84,69 @@ button{
     height:3rem;
 }
 
-.foodContainer{
+ .foodContainer{
     display:flex;
     margin:0 9%;
+    gap:2rem;
+}
+
+.CardContainer{
+    background-color:#EDEFEE;
+    border-radius:10px;
+   
+
+}
+
+.CardContainer .FoodPic{
+    width:100%;
+    height:50%;
+    
+}
+
+
+    .CardFirstLine {
+        display: flex;
+        justify-content: space-between;
+        font-weight: bold;
+        
+        
+      }
+
+.FoodPrice{
+    color:#EE9972;
+}
+
+.FoodExplanation{
+    color:#333333;
+}
+
+.CardContainer{
+    width:100%;
+}
+
+.CardContainer p, h3{
+    margin-left:2rem;
+    margin-right:2rem;
+    
+
+}
+
+
+.CardContainer  h3 img{
+    height:1.5rem;
+}
+
+.CardBottomLine{
+    display:flex;
+    width:100%;
+    
+}
+
+.CardBottomLine h3{
+    width:fit-content;
+}
+.CardBottomLine img{
+    height:1.5rem;
+    margin-top:1rem;
+    border-radius: 5px;
 }

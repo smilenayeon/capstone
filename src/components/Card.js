@@ -7,10 +7,19 @@ function Card(props) {
 
     <div className="CardContainer">
         <img className="FoodPic" src={FoodPic} alt={FoodTitle}></img>
-        <h3 className="FoodTitle">{FoodTitle}</h3>
-        <h3 className="FoodPrice">$ {FoodPrice}</h3>
+        
+        <div className="CardFirstLine">
+            <div><h3 className="FoodTitle">{FoodTitle}</h3></div>
+            <div><h3 className="FoodPrice">$ {FoodPrice.toFixed(2)}</h3></div>
+        </div>
+        
         <p className="FoodExplanation"> {FoodExplanation}</p>
-        <h3>Order Delivery</h3>
+        
+        <div className="CardBottomLine">
+            <h3> Order Delivery </h3>
+            <img src="images/delivery.png" alt="motorcycle"></img>
+
+        </div>
 
     </div>
   );
