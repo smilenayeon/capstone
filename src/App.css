@@ -173,3 +173,25 @@ button{
     margin-top:1rem;
     border-radius: 5px;
 }
+
+form{
+    display: grid; 
+    max-width: 200px; 
+    gap: 20px
+}
+
+.formContainter{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #495E57;
+    padding-top:2rem;
+    padding-bottom:2rem;
+}
+
+.ReservationFirstLine{
+    margin:1rem 10%;
+}
+.ReservationFirstLine h1, p{
+    color:#333333
+}
