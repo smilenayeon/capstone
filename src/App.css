@@ -8,6 +8,7 @@
     align-items: center;
     font-weight: bold;
     font:markazi;
+   
 
 }
 
@@ -19,6 +20,12 @@
     display:flex;
     gap:1.5rem;
     list-style-type: none;
+
+}
+
+.links a{
+    text-decoration: none;
+    color:#333333;
 }
 
 .headerContainer{
@@ -98,7 +105,7 @@ button{
     gap:2rem;
 }
 
-@media screen and (max-width: 700px) {
+@media (max-width: 700px) {
     .foodContainer {
       flex-direction: column;
       gap: 2rem;

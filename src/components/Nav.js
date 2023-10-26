@@ -1,20 +1,24 @@
 import React from 'react'
+import {Link} from "react-router-dom";
 
 function Nav() {
   return (
+    
     <div>
     <div className="navBar">
         <div><img className="navLogo" src="images/logo1.png" alt="logo"></img></div>
         
         <ul className="links">
-          <li>Home</li>
-          <li>About</li>
-          <li>Menu</li>
-          <li>Reservations</li>
-          <li>OrderOnline</li>
-          <li>Login</li>
+     <Link to="/">Home</Link>
+     <Link to="/about">About</Link>
+     <Link to="/menu">Menu</Link>
+     <Link to="/reservation">Reservation</Link>
+     <Link to="/order-online">Order Online</Link>
+     <Link to="/login">Login</Link>
+     
         </ul>
-        
+
+
         </div>
     </div>
   )
